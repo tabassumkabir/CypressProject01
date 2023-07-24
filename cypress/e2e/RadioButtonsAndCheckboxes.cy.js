@@ -34,6 +34,9 @@ describe('Checking UI elements',()=>{
         //selecting first checkbox
         cy.get("input.form-check-input[type='checkbox']").first().check()
 
+        //refresh the page 
+        cy.reload()
+
 
 
     })
