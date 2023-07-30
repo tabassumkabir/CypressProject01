@@ -6,7 +6,7 @@ describe('Dropdowns',()=>{
     const autostaticdropdown="https://www.wikipedia.org/"
     const dynamicDropdown="https://www.google.com/"
 
-    it('dropdown with select tag',()=>{
+    it.only('dropdown with select tag',()=>{
 
     
         cy.visit(zohoUrl)
@@ -41,7 +41,7 @@ describe('Dropdowns',()=>{
 
     })
 
-    it.only('Auto suggested dynamic dropdowns',()=>{
+    it('Auto suggested dynamic dropdowns',()=>{
 
     
         cy.visit(dynamicDropdown)
