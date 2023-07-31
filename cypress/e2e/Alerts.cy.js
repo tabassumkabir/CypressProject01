@@ -66,7 +66,7 @@ describe('Handling Alerts',()=>{
 
     })
 
-    it.only('Js alert3 ',()=>{
+    it('Js alert3 ',()=>{
 
         cy.visit(alertUrl)
 
