@@ -1,3 +1,5 @@
-# CypressProject01
+# Automated small actions
 
-my first repo!
+Radio buttons
+Checkboxes
+Assertions
